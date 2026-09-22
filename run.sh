@@ -23,6 +23,7 @@ patch -u -p0 < patches/fix-last-page-evaluation.diff
 patch -u -p0 < patches/switch-page-view.diff
 patch -u -p0 < patches/fix-min-update-chapter.diff
 patch -u -p0 < patches/fix-html-change.diff
+patch -u -p0 < patches/fix-r18-fetch.diff
 patch -u -p0 < patches/version.diff
 
 # change package name to com.tscsoft.naroureader_mod_mod_mod

@@ -154,3 +154,6 @@ novel_sublist2 -> p-eplist__sublist
 "<p class=\"novel_subtitle\">(.+?)</p>" -> "<h1 class=\"p-novel__title p-novel__title--rensai\">(.+?)</h1>"
 "<div id=\"novel_honbun\" class=\"novel_view\">\n([\\s\\S]+?)</div>" -> "<div class=\"js-novel-text p-novel__text\">\n([\\s\\S]+?)</div>"
 ```
+
+### fix-r18-fetch.diff
+- ノクターンノベルス・ムーンライトノベルスの小説の更新に失敗する不具合を修正
